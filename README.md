@@ -58,7 +58,8 @@ Tampilan dashboard yang menampilkan informasi total data. Untuk menampikan total
 
 CREATE FUNCTION fn_totalUsers() RETURNS INT(11) UNSIGNED NOT DETERMINISTIC NO SQL SQL SECURITY DEFINER RETURN (SELECT COUNT(id_pasien) FROM pasien)
 
-![image](https://user-images.githubusercontent.com/101730390/177024233-f2c46ec9-6eae-4db2-b375-e53dd6733cba.png)
+![image](https://user-images.githubusercontent.com/101730390/177024853-7f576efa-7b54-4ef9-8664-eaa4b38de5a4.png)
+
 
 
 implementasi view
@@ -68,4 +69,5 @@ CREATE VIEW viewPenyakit AS SELECT a.id_berobat, b.nama_pasien, b.jenis_kelamin,
 
 // END IMPLEMENTASI VIEW
 
-![image](https://user-images.githubusercontent.com/101730390/177024247-01c182bf-63ff-4701-97e4-a3fbefa7f379.png)
+![image](https://user-images.githubusercontent.com/101730390/177024840-35960c94-82b3-411b-a3eb-db1ca37a3cc0.png)
+
