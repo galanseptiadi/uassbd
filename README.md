@@ -1,4 +1,7 @@
 # uassbd
+
+(Sudah melakukan Demo Program UAS Pada Selasa, 5 juli 2022 jam 21.00)
+
 Dari Tugas UTS sebelumnya saya membuat sebuah sistem informasi klinik sederhana dimana dalam sistem tersebut saya akan menampilkan
 
 Modul data pasien
